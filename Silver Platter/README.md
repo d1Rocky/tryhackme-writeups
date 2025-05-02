@@ -42,7 +42,11 @@ In scr1ptkiddy account, when opening “my notification” there is a link at th
 - found in ID=6 this message: Username: tim & Password: cm0nt!md0ntf0rg3tth!spa$$w0rdagainlol
 
 
-## Post-Exploitation
+## Post-Exploitation (SSH Login)
+```
+sudo ssh tim@10.10.105.228 > cat user.txt
+```
+
 
 
 
