@@ -44,7 +44,8 @@ In scr1ptkiddy account, when opening “my notification” there is a link at th
 
 ## Post-Exploitation (SSH Login)
 ```
-sudo ssh tim@10.10.105.228 > cat user.txt
+sudo ssh tim@10.10.105.228
+cat user.txt
 ```
 
 
