@@ -34,4 +34,6 @@ In "Hack Smarter Security" website, I found information inside "Contact" tab - "
 ## Exploit (Authentication Bypass)
 Found silverpeas exploit - https://gist.github.com/ChrisPritchard/4b6d5c70d9329ef116266a6c238dcb2d
 Based on those findings it says you can log in if you remove the password field and then the login attempt will (usually) succeed.
-- Using Burpsuite > 
+- Using Burpsuite, I set "Intercept on" and went back to the login page and tried to log in using scr1ptkiddy. Once I got the interception to BurpSuite I deleted the password from the request and then clicked "Intercept off" which gave me ACCESS to the website as user scr1ptkiddy.
+![image](https://github.com/user-attachments/assets/91d971fa-a941-4749-9fc1-ba9180eff0b3)
+
