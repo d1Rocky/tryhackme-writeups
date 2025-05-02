@@ -1,4 +1,4 @@
-# tryhackme-solved
+# tryhackme-writeups
 
 Welcome to my collection of documented TryHackMe rooms that I've completed as part of my ongoing cybersecurity learning journey. Each write-up showcases the steps I took to enumerate, exploit, and ultimately "clear" various challenges on the TryHackMe platform.
 
