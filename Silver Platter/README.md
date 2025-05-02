@@ -27,4 +27,9 @@ PORT     STATE SERVICE    VERSION
 |     <html><head><title>Error</title></head><body>404 - Not Found</body></html>
 |   GenericLines, Help, Kerberos, LDAPSearchReq, LPDString, RTSPRequest, SMBProgNeg, SSLSessionReq, Soc
 ```
-In "Hack Smarter Security" website, I found information inside "Contact" tab giving a username: scr1ptkiddy & Silverpeas which can suggest on a website.
+
+In "Hack Smarter Security" website, I found information inside "Contact" tab - "Silverpeas" which can suggest on a website and also username: scr1ptkiddy.
+- Went to 10.10.105.228:8080/silverpeas and got to a login page
+
+## Exploit (Authentication Bypass)
+Found silverpeas exploit - https://gist.github.com/ChrisPritchard/4b6d5c70d9329ef116266a6c238dcb2d
