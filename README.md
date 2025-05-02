@@ -18,7 +18,9 @@ CTF-style problem solving
 
 I update this repo regularly as I complete new rooms. For ethical reasons, flags and answers are not shared, but the techniques, tools, and methodologies are documented to reflect my learning process.
 
-``` hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.10 http-get ```
+```
+heelo
+```
 
 
 
