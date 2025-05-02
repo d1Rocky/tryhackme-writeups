@@ -37,7 +37,7 @@ Based on those findings it says you can log in if you remove the password field 
 - Using Burpsuite, I set "Intercept on" and went back to the login page and tried to log in using scr1ptkiddy. Once I got the interception to BurpSuite I deleted the password from the request and then clicked "Intercept off" which gave me ACCESS to the website as user scr1ptkiddy.
 ![image](https://github.com/user-attachments/assets/91d971fa-a941-4749-9fc1-ba9180eff0b3)
 In scr1ptkiddy account, when opening “my notification” there is a link at the top that says - http://http://10.10.105.228/:8080/silverpeas/RSILVERMAIL/jsp/ReadMessage.jsp?ID=5
-→ All you need to do is change the ID to differernt number.
-→ found in ID=6 this message:
+- All you need to do is change the ID to differernt number.
+- found in ID=6 this message:
 ![image](https://github.com/user-attachments/assets/952ae943-eac6-412b-9730-85a9dffb9366)
 
