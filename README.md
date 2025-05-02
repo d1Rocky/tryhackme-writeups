@@ -18,5 +18,5 @@ CTF-style problem solving
 
 I update this repo regularly as I complete new rooms. For ethical reasons, flags and answers are not shared, but the techniques, tools, and methodologies are documented to reflect my learning process.
 
-```You can use the `hydra` tool to brute-force SSH credentials.
+``` hello hello ```
 
