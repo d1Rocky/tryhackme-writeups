@@ -31,6 +31,7 @@ PORT     STATE SERVICE    VERSION
 In "Hack Smarter Security" website, I found information inside "Contact" tab - "Silverpeas" which can suggest on a website and also username: scr1ptkiddy.
 - Went to 10.10.105.228:8080/silverpeas and got to a login page
 
+
 ## Exploit (Authentication Bypass)
 Found silverpeas exploit - https://gist.github.com/ChrisPritchard/4b6d5c70d9329ef116266a6c238dcb2d
 Based on those findings it says you can log in if you remove the password field and then the login attempt will (usually) succeed.
