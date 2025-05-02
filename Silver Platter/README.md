@@ -5,12 +5,6 @@ IP - 10.10.105.228
 ## Scanning and Enumeration
 nmap scan:
 ```
-nmap -p- 10.10.105.228 -Pn -T5 -v
-Discovered open port 8080/tcp on 10.10.105.228
-Discovered open port 22/tcp on 10.10.105.228
-Discovered open port 80/tcp on 10.10.105.228
-
-nmap -p 80,8080,22 -A 10.10.105.228 -Pn -v
 PORT     STATE SERVICE    VERSION
 22/tcp   open  ssh        OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey: 
