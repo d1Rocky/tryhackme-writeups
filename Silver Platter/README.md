@@ -47,7 +47,17 @@ In scr1ptkiddy account, when opening “my notification” there is a link at th
 sudo ssh tim@10.10.105.228
 cat user.txt
 ```
-
+- after finding the first flag, I looked up tim's id to see what kind of permissions he got
+```
+tim@silver-platter:~$ id tim
+uid=1001(tim) gid=1001(tim) groups=1001(tim),4(adm)
+```
+I looked up online “linux adm group” and found: "Group adm is used for system monitoring tasks. Members of this group can read many log files in /var/log, and can use xconsole. Historically, /var/log was /usr/adm (and later /var/adm), thus the name of the group."
+- Navigate to /var/log and used this command to get a password - grep -ir "password". This is what I found in the logs:
+![image](https://github.com/user-attachments/assets/6a051a8a-bb59-411c-bff1-094e8bcfa970)
+- Navigate to /home directory and ran - su tyler (to switch users) and pasted the password I got earlier which ended up giving me access to tyler.
+- I checked if tyler is able to access the root flag but received "permission denied". I checked tyler's permissions and noticed he has 27(sudo) which allows him to switch to root user.
+- With this information I ran "sudo su" and used tyler's password again and got ACCESS to root user. All I had to do from there was reading the root.txt flag
 
 
 
