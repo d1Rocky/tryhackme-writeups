@@ -31,7 +31,6 @@ PORT     STATE SERVICE    VERSION
 In "Hack Smarter Security" website, I found information inside "Contact" tab - "Silverpeas" which can suggest on a website and also username: scr1ptkiddy.
 - Went to 10.10.105.228:8080/silverpeas and got to a login page
 
-
 ## Exploit (Authentication Bypass)
 Found silverpeas exploit - https://gist.github.com/ChrisPritchard/4b6d5c70d9329ef116266a6c238dcb2d
 Based on those findings it says you can log in if you remove the password field and then the login attempt will (usually) succeed.
@@ -40,7 +39,10 @@ Based on those findings it says you can log in if you remove the password field 
 In scr1ptkiddy account, when opening “my notification” there is a link at the top that says - http://http://10.10.105.228/:8080/silverpeas/RSILVERMAIL/jsp/ReadMessage.jsp?ID=5
 - All you need to do is change the ID to differernt number.
 ![image](https://github.com/user-attachments/assets/952ae943-eac6-412b-9730-85a9dffb9366)
-- found in ID=6 this message:
-Username: tim
-Password: cm0nt!md0ntf0rg3tth!spa$$w0rdagainlol
+- found in ID=6 this message: Username: tim & Password: cm0nt!md0ntf0rg3tth!spa$$w0rdagainlol
+
+
+## Post-Exploitation
+
+
 
