@@ -1,6 +1,8 @@
 # Light
 
+
 IP - 10.10.255.175
+
 
 ## Scanning and Enumeration
 
@@ -9,6 +11,8 @@ IP - 10.10.255.175
 
 ## SQL Injection
 - Step by step:
+
+
 1). This proved the login form is vulnerable to SQL injection.
 ```
 Please enter your username: ' OR '1'='1
