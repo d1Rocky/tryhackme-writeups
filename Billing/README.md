@@ -27,8 +27,9 @@ dirsearch:
 - MagnusBilling - found by going to HTML source code (ctrl + U)
 
 ## Exploit (msfconsole - Reverse Shell)
-In msfconsole searched for MagnusBilling 
+- In msfconsole searched for MagnusBilling 
 ![image](https://github.com/user-attachments/assets/68f4782c-c1eb-4e5d-b169-ccba7dd631e7)
+- set RHOST and LHOST and then ran the command
 ![image](https://github.com/user-attachments/assets/9d00dd2e-127f-4bfa-8a3b-9b850ad14913)
 ![image](https://github.com/user-attachments/assets/ccf1934f-1b38-49a2-9288-182c3b35fc81)
 ![image](https://github.com/user-attachments/assets/e7ed40cb-c154-4ef2-ba5f-61ed88d15968)
