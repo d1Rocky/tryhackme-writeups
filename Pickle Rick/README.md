@@ -33,5 +33,9 @@ dirsearch:
 
 [21:39:26] 200 -    17B - /robots.txt
 ```
+- Viewed HTML source code on picklerick.thm website and found Username: R1ckRul3s.
+- Found password in 10.10.191.16/robots.txt - Wubbalubbadubdub
+- Navigate to /login.php and used username R1ckRul3s and password Wubbalubbadubdub to log in.
 
+  ## Exploit
 
