@@ -22,6 +22,7 @@ PORT     STATE SERVICE VERSION
 Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
 ```
 dirsearch:
+
 /robots.txt - found: /mbilling/
 
 - MagnusBilling - found by going to HTML source code (ctrl + U)
