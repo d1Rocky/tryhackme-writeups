@@ -33,10 +33,24 @@ dirsearch:
 ![image](https://github.com/user-attachments/assets/9d00dd2e-127f-4bfa-8a3b-9b850ad14913)
 
 - Navigate /home > found user "magnus" and inside his files I found the first flag.
-- found 
+- found id
 ``` 
 id
 uid=1001(asterisk) gid=1001(asterisk) groups=1001(asterisk)
 ``` 
+- Executed LinPEAS to get more info about the machine and found:
+```
+Runas and Command-specific defaults for asterisk:
+Defaults!/usr/bin/fail2ban-client !requiretty
+
+User asterisk may run the following commands on Billing:
+(ALL) NOPASSWD: /usr/bin/fail2ban-client
+```
+> indicating that you can run fail2ban-client without a password
+
+
+fff
+
+
 ![image](https://github.com/user-attachments/assets/ccf1934f-1b38-49a2-9288-182c3b35fc81)
 ![image](https://github.com/user-attachments/assets/e7ed40cb-c154-4ef2-ba5f-61ed88d15968)
