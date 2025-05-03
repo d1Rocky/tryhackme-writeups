@@ -58,6 +58,7 @@ Navigate to /home > ``` grep . -R ``` to get second ingredient.
 - Results from LinePEAS - User www-data may run the following commands on ip-10-10-191-16:
 (ALL) NOPASSWD: ALL
 > This means that you can run any command as scriptmanager, and optionally set your group to scriptmanager when doing so
+Ran ``` sudo bash > cd root > cat 3rd.txt ``` > got last ingredient
 
 
 
