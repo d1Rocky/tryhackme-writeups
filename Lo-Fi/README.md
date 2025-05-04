@@ -25,7 +25,7 @@ dirsearch:
 ```
 
 ## LFI Path Traversal 
-- In Lo-Fi.thm website, I noticed if you click on one of the options under "Discography" the URL might be vulnerable to Path Traversal.
-- To test this theory, I modified URL - ../../../../etc/passwd. This helped me to display system files and confirmed this website is actually vulnerable to Path Traversal.
+- In Lo-Fi website, I noticed if you click on one of the options under "Discography" the URL might be vulnerable to Path Traversal.
+- To test this theory, I modified the URL - ../../../../etc/passwd. This helped me to display system files, confirming that the website is indeed vulnerable to a Path Traversal attack
 ![image](https://github.com/user-attachments/assets/ce12ca18-0f73-4bec-b2cf-e37a2f75bc44)
 
