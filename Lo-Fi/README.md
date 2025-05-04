@@ -30,4 +30,6 @@ dirsearch:
 ![image](https://github.com/user-attachments/assets/ce12ca18-0f73-4bec-b2cf-e37a2f75bc44)
 
 
-- To find the flag all I needed to do was to modify the URL again but this time changed it to - ``` http://10.10.24.125/?page=../../../../flag.txt ``` - which gave me the flag.txt file!
+- To find the flag all I needed to do was to modify the URL again but this time changed it to -
+
+  ``` http://10.10.24.125/?page=../../../../flag.txt ``` - which gave me the flag.txt file!
