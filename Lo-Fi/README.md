@@ -4,6 +4,7 @@ IP - 10.10.24.125
 
 ## Scanning and Enumeration
 nmap scan:
+```
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey:
@@ -15,11 +16,13 @@ PORT   STATE SERVICE VERSION
 | http-methods:
 |*  Supported Methods: GET HEAD POST OPTIONS
 |_http-server-header: Apache/2.2.22 (Ubuntu)
+```
 
 dirsearch:
+```
 /index.php
 /index.php/login/
-
+```
 
 
 
