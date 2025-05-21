@@ -31,4 +31,5 @@ dirsearch:
 - To find user.txt - ``` find / -name “user.txt” 2>/dev/null ```
 
 # Priviledge Escalation
+https://hacking-capture.github.io/root-me/
 Finding user with different priviledges -``` find / -user root -perm -4000 2>/dev/null ```
