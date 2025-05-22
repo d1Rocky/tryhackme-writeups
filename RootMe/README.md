@@ -35,7 +35,7 @@ dirsearch:
 ## Exploit
 - http://10.10.88.7/panel is vulnerable to file upload.
 - http://10.10.88.7/uploads allows you to see the uploaded files.
-- Website allows .txt to be uploaded but .php gets denied.
+- Tested website uploads and found out it allows .txt to be uploaded but .php gets denied.
 
 
 ## Reverse Shell
