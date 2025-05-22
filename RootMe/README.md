@@ -51,6 +51,8 @@ dirsearch:
 
 ## Post-Exploit
 - To find user.txt - ``` find / -iname “user.txt” 2>/dev/null ```
+
+
 ![image](https://github.com/user-attachments/assets/88ea8174-23d7-4b2c-8e80-95ead92d3539)
 
 
