@@ -44,6 +44,8 @@ dirsearch:
 
 
 *The file is renamed to .phtml to bypass upload restrictions on .php files, allowing us to upload and execute the PHP reverse shell.
+![image](https://github.com/user-attachments/assets/b0e1c037-170e-4015-8f3b-68fd40c1035e)
+
 - Upload the executable file in the website and then go to http://10.10.88.7/uploads.
 - In the terminal start netcat listener - ``` nc -nlvp 4444 ``` > go back to the website and open the executable file > acheived reverese shell.
 
