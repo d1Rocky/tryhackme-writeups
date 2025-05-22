@@ -5,11 +5,41 @@ IP - 10.10.88.7
 ## Scanning and Enumeration
 nmap scan:
 ```
-
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   2048 4a:b9:16:08:84:c2:54:48:ba:5c:fd:3f:22:5f:22:14 (RSA)
+|   256 a9:a6:86:e8:ec:96:c3:f0:03:cd:16:d5:49:73:d0:82 (ECDSA)
+|_  256 22:f6:b5:a6:54:d9:78:7c:26:03:5a:95:f3:f9:df:cd (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: HackIT - Home
+|_http-server-header: Apache/2.4.29 (Ubuntu)
 ```
 dirsearch:
 ```
+[22:18:58] 403 -   275B - /.php
 
+[22:19:21] 301 -   306B - /css  ->  http://10.10.88.7/css/
+
+[22:19:28] 200 -   616B - /index.php
+
+[22:19:28] 200 -   616B - /index.php/login/
+
+[22:19:30] 200 -   956B - /js/
+
+[22:19:30] 301 -   305B - /js  ->  http://10.10.88.7/js/
+[22:19:38] 301 -   308B - /panel  ->  http://10.10.88.7/panel/
+
+[22:19:38] 200 -   732B - /panel/
+
+[22:19:44] 403 -   275B - /server-status
+
+[22:19:44] 403 -   275B - /server-status/
+
+[22:19:50] 301 -   310B - /uploads  ->  http://10.10.88.7/uploads/
+
+[22:19:50] 200 -   741B - /uploads/
 ```
 
 ## Exploit
