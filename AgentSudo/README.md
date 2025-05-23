@@ -89,7 +89,8 @@ Downloaded the file to my machine
 ![image](https://github.com/user-attachments/assets/d2ce9dbe-c4a6-4104-a397-c81d2138aa66)
 
 - Got the user.txt flag with no issues inside "james" directory.
-- 
+- In james directory there is an image. To get the name of the incident photo I transferred the image to my machine using - ``` scp james@10.10.149.28:/home/james/Alien_autospy.jpg . ```
+- Went to https://tineye.com/ > Uploaded the image and in the results I found an article in foxnews.com called "Roswell alien autopsy".
 
 
 
