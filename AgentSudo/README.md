@@ -61,6 +61,8 @@ Downloaded the file to my machine
 
 ![image](https://github.com/user-attachments/assets/47f6dcd3-619f-4039-b531-ea1f603c800c)
 
+wget --ftp-user=chris --ftp-password=crystal ftp://10.10.149.28/To_agentJ.txt
+
 
 
 
