@@ -84,9 +84,13 @@ Downloaded the file to my machine
 ![image](https://github.com/user-attachments/assets/6994ad57-7c63-45b6-b294-737cd641a0f1)
 
 ## SSH Login
-- Establishes SSH access using username: james | password: hackerrules!
+- Established SSH access using username: james | password: hackerrules!
 
 ![image](https://github.com/user-attachments/assets/d2ce9dbe-c4a6-4104-a397-c81d2138aa66)
+
+- Got the user.txt flag with no issues inside "james" directory.
+- 
+
 
 
 
