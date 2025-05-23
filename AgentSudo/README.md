@@ -96,6 +96,7 @@ Downloaded the file to my machine
 ## Privilege Escalation
 - Info found about user james:
 ```
+james@agent-sudo:/$ sudo -l
 User james may run the following commands on agent-sudo:
 (ALL, !root) /bin/bash
 ```
