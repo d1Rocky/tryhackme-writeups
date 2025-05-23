@@ -70,6 +70,10 @@ Transferred the file to my machine
 
 ![image](https://github.com/user-attachments/assets/73b97020-ae76-494b-88fa-66a6e3356521)
 
+
+## John The Ripper & Stegseek Attack
+
+
 - Tried to read the zip file but it is unreadable and needs to be exploit.
 - Used zip2john to extract hashed passwords
 - Used john to crack the password
