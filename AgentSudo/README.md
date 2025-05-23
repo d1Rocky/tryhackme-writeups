@@ -74,6 +74,11 @@ Downloaded the file to my machine
 
 ![image](https://github.com/user-attachments/assets/acd5f02e-6a4a-43b6-9e20-28d241846988)
 
+- Image cute-alien.jpg is also hiding something but it asks for a passphrase.
+- To get the passphrase I used stegseek to crack it.
+
+![image](https://github.com/user-attachments/assets/b139c113-ea9b-4568-9fd9-e52a7c460f0b)
+
 
 
 
