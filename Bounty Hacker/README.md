@@ -45,3 +45,9 @@ dirsearch:
 
 [19:39:31] 403 -   278B - /server-status
 ```
+
+## FTP Server Access
+successful FTP login using Anonymous/Anonymous as username and password
+
+
+![image](https://github.com/user-attachments/assets/c36409e5-bd4d-4771-87b8-494bae4b3a18)
