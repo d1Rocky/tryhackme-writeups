@@ -48,6 +48,7 @@ dirsearch -
 To brute force the FTP server I used Hydra - ``` hydra -l chris -P /usr/share/wordlists/rockyou.txt -t 4 ftp://10.10.149.28 ```
 ![image](https://github.com/user-attachments/assets/d47f74f6-51a5-4472-92cf-ebdfce7d30f8)
 Login successful using "chris" as the username and "crystal" as the password.
+
 ![image](https://github.com/user-attachments/assets/e673c106-981a-4a1e-a7b6-20958b1b66a9)
 
 
