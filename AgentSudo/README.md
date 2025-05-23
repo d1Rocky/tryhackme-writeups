@@ -64,11 +64,11 @@ Transferred the file to my machine
 ![image](https://github.com/user-attachments/assets/01b9a433-bd67-4fea-9e04-6a85016fe016)
 
 - Went back to the FTP server and moved both images to my machine.
-- Found zip file inside one of the images by running - ``` binwalk -e cutie.png ```
+- Found zip file inside one of the images and extracted it by running - ``` binwalk -e cutie.png ```
 
 ![image](https://github.com/user-attachments/assets/73b97020-ae76-494b-88fa-66a6e3356521)
 
-- Zip file is unreadable and needs to be exploit.
+- Tried to read the zip file but it is unreadable and needs to be exploit.
 - Used zip2john to extract hashed passwords
 - Used john to crack the password
 
