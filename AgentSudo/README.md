@@ -52,5 +52,15 @@ Login successful using "chris" as the username and "crystal" as the password.
 
 ![image](https://github.com/user-attachments/assets/e673c106-981a-4a1e-a7b6-20958b1b66a9)
 
+Found 'J' file
+
+![image](https://github.com/user-attachments/assets/4384db87-6b60-41dc-8798-c4457a928ea5)
+
+
+Used my terminal to download the file to my machine
+
+![image](https://github.com/user-attachments/assets/47f6dcd3-619f-4039-b531-ea1f603c800c)
+
+
 
 
