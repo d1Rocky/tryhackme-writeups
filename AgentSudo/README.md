@@ -2,4 +2,41 @@
 
 IP - 10.10.149.28
 
+## Scanning and Enumeration
+nmap:
+```
+21/tcp open  ftp     vsftpd 3.0.3
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   2048 ef:1f:5d:04:d4:77:95:06:60:72:ec:f0:58:f2:cc:07 (RSA)
+|   256 5e:02:d1:9a:c4:e7:43:06:62:c1:9e:25:84:8a:e7:ea (ECDSA)
+|_  256 2d:00:5c:b9:fd:a8:c8:d8:80:e3:92:4f:8b:4f:18:e2 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|http-server-header: Apache/2.4.29 (Ubuntu)
+| http-methods:
+|  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Annoucement
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+```
+dirsearch:
+```
+dirsearch -
+
+[21:37:02] 403 -   276B - /.php
+
+[21:37:33] 200 -   218B - /index.php
+
+[21:37:33] 200 -   218B - /index.php/login/
+
+[21:37:48] 403 -   276B - /server-status
+
+[21:37:48] 403 -   276B - /server-status/
+```
+
+## Exploit
+- To access the site I used BurpSuite to capture the request.
+- Modified User-Agent by typing letters "A,B,C,D,E,F...", received "302 Found" which indicates redirection.
+![image](https://github.com/user-attachments/assets/d20a6e6d-646e-4023-8f93-0c0c60b91657)
+- Added the location: "agent_C_attention.php" to the GET request and got accessed to the site.
+![image](https://github.com/user-attachments/assets/fff21a02-49e4-45a2-a072-1d553ca25bd4)
 
