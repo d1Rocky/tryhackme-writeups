@@ -40,3 +40,12 @@ dirsearch -
 - Added the location: "agent_C_attention.php" to the GET request and got accessed to the site.
 ![image](https://github.com/user-attachments/assets/fff21a02-49e4-45a2-a072-1d553ca25bd4)
 
+## Brute Force Attack
+1. We know FTP server is open.
+2. We know user is Chris.
+3. We know Chris got a weak password.
+
+To brute force the FTP server I used Hydra - ``` hydra -l chris -P /usr/share/wordlists/rockyou.txt -t 4 ftp://10.10.149.28 ```
+![image](https://github.com/user-attachments/assets/d47f74f6-51a5-4472-92cf-ebdfce7d30f8)
+
+
