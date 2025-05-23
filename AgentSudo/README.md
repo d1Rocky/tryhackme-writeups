@@ -79,6 +79,9 @@ Downloaded the file to my machine
 
 ![image](https://github.com/user-attachments/assets/b139c113-ea9b-4568-9fd9-e52a7c460f0b)
 
+- Found out Agent 'J' name is James. Password: hackerrules!
+
+![image](https://github.com/user-attachments/assets/6994ad57-7c63-45b6-b294-737cd641a0f1)
 
 
 
