@@ -52,6 +52,8 @@ Login successful using "chris" as the username and "crystal" as the password.
 
 ![image](https://github.com/user-attachments/assets/e673c106-981a-4a1e-a7b6-20958b1b66a9)
 
+## FTP File Transfer
+
 Found 'Agent J' file
 
 ![image](https://github.com/user-attachments/assets/4384db87-6b60-41dc-8798-c4457a928ea5)
