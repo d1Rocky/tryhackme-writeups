@@ -56,9 +56,7 @@ after typing "ls" and waiting for few seconds I found two .txt files
 
 ![image](https://github.com/user-attachments/assets/4ec8fd12-fa0d-4331-8031-166deb645f1f)
 
-When running this command ``` wget --ftp-user=Anonymous ftp://10.10.118.213/locks.txt ``` to transfer the files over to my machine I got an error:
-
-"==> PASV ... couldn't connect to 10.10.118.213 port 18667: Connection timed out"
+When running this command ``` wget --ftp-user=Anonymous ftp://10.10.118.213/locks.txt ``` to transfer the files over to my machine I got an error: "==> PASV ... couldn't connect to 10.10.118.213 port 18667: Connection timed out"
 
 I successfully got it to work after changing the command to - ``` wget --ftp-user=Anonymous --no-passive-ftp ftp://10.10.118.213/locks.txt ```
 
