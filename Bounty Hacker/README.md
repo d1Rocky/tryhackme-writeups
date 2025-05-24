@@ -67,6 +67,14 @@ Found out that the person who wrote task list is Lin
 
 ![image](https://github.com/user-attachments/assets/7ff5ad08-3daf-4fe4-927a-a79f494140c1)
 
-## SSH Brute Force
+## SSH Brute Force using Hydra
 
-locks.txt givin multiple username and passwords that can be used for SSH brute force attack
+Used locks.txt file to brute force ssh by using this command - ``` hydra -l lin -P locks.txt -t 4 -V ssh://10.10.27.97  ```
+
+![image](https://github.com/user-attachments/assets/b822493c-cb95-4544-8c0b-5b1c18b38486)
+
+Successfully logged into SSH
+
+![image](https://github.com/user-attachments/assets/35e53d7a-c3c2-4a78-80e8-d99df17ee26d)
+
+
