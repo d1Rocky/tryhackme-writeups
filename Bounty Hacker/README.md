@@ -47,7 +47,12 @@ dirsearch:
 ```
 
 ## FTP Server Access
-successful FTP login using Anonymous/Anonymous as username and password
+Successfully logged into FTP server using Anonymous as username.
 
 
 ![image](https://github.com/user-attachments/assets/c36409e5-bd4d-4771-87b8-494bae4b3a18)
+
+after typing "ls" and waiting for few seconds I found two .txt files
+
+![image](https://github.com/user-attachments/assets/4ec8fd12-fa0d-4331-8031-166deb645f1f)
+
