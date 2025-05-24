@@ -46,7 +46,7 @@ dirsearch:
 [19:39:31] 403 -   278B - /server-status
 ```
 
-## FTP Server Access
+## FTP Server Access and File Transfer
 Successfully logged into FTP server using Anonymous as username.
 
 
@@ -62,3 +62,7 @@ I successfully got it to work after changing the command to - ``` wget --ftp-use
 
 ![image](https://github.com/user-attachments/assets/242a97c5-1854-46aa-aa15-c6bbd181a4ef)
 
+
+Found out that the person who wrote task list is Lin
+
+![image](https://github.com/user-attachments/assets/7ff5ad08-3daf-4fe4-927a-a79f494140c1)
