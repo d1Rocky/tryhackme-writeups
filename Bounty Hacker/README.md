@@ -66,3 +66,7 @@ I successfully got it to work after changing the command to - ``` wget --ftp-use
 Found out that the person who wrote task list is Lin
 
 ![image](https://github.com/user-attachments/assets/7ff5ad08-3daf-4fe4-927a-a79f494140c1)
+
+## SSH Brute Force
+
+locks.txt givin multiple username and passwords that can be used for SSH brute force attack
