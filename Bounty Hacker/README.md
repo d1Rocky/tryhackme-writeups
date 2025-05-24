@@ -2,6 +2,9 @@
 
 ## Scanning and Enumeration
 
+IP - 10.10.118.213
+
+
 nmap scan:
 ```
 21/tcp open  ftp     vsftpd 3.0.3
