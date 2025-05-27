@@ -63,4 +63,7 @@ reference - https://www.exploit-db.com/exploits/40718
 ![image](https://github.com/user-attachments/assets/d731429e-a0a3-4dcb-b57b-9b80688c913f)
 
 
+Uncheck the box that says "server close" and went back to http://10.10.229.33/content/ and refreshed the page.
+
+
 
