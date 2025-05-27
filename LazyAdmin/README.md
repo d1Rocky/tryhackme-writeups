@@ -52,3 +52,15 @@ reference - https://www.exploit-db.com/exploits/40718
 ![image](https://github.com/user-attachments/assets/0b749176-2249-4032-acb1-ea09d1964fac)
 
 
+- Inside the file there is username and password to log in as "admin".
+![image](https://github.com/user-attachments/assets/9a346bcd-f5b9-4532-8086-7b4cba808d90)
+
+
+## Crack the Hash
+![image](https://github.com/user-attachments/assets/e79a5b30-aa5f-4f72-88b9-b92cc96e7465)
+
+- Successfully logged in using: Username: manager  |  Password: Password123
+![image](https://github.com/user-attachments/assets/d731429e-a0a3-4dcb-b57b-9b80688c913f)
+
+
+
