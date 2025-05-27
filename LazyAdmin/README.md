@@ -39,7 +39,14 @@ dirsearch -
 ```
 
 
-login page
-
+Found out website can be accessed through this path - /content/as
 ![image](https://github.com/user-attachments/assets/51bafbb8-adff-44f7-a2a5-12551b7fbb69)
+
+
+## Exploit
+- Found SweetRice backup disclosure that allows you to access all mysql backup and download it.
+
+reference - https://www.exploit-db.com/exploits/40718
+![image](https://github.com/user-attachments/assets/0b749176-2249-4032-acb1-ea09d1964fac)
+
 
