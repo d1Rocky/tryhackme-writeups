@@ -69,6 +69,13 @@ reference - https://www.exploit-db.com/exploits/40718
 
 ![image](https://github.com/user-attachments/assets/a8bd759c-3a56-444b-a416-48fe396b60fc)
 
+## Reverse Shell PHP
+Found a vulnerability by using searchexploit
+
+
+![image](https://github.com/user-attachments/assets/ebbd6844-9c10-4d85-8a08-bc2abe0f45c5)
+
+
 
 
 
