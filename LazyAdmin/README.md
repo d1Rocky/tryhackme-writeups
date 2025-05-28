@@ -1,6 +1,6 @@
 # Lazy Admin
 
-IP - 
+IP - 10.10.183.245
 
 
 ## Scanning and Enumeration
