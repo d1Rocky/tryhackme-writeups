@@ -63,7 +63,12 @@ reference - https://www.exploit-db.com/exploits/40718
 ![image](https://github.com/user-attachments/assets/d731429e-a0a3-4dcb-b57b-9b80688c913f)
 
 
-Uncheck the box that says "server close" and went back to http://10.10.229.33/content/ and refreshed the page.
+- Followed the instructions first saw at the beginning of the lab in http://10.10.51.35/content/ "If you are the webmaster,please go to Dashboard -> General -> Website setting and uncheck the checkbox "Site close" to open your website."
+
+- Went back to http://10.10.51.35/content/ and refreshed the page.
+
+![image](https://github.com/user-attachments/assets/a8bd759c-3a56-444b-a416-48fe396b60fc)
+
 
 
 
