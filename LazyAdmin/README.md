@@ -69,8 +69,8 @@ reference - https://www.exploit-db.com/exploits/40718
 
 ![image](https://github.com/user-attachments/assets/a8bd759c-3a56-444b-a416-48fe396b60fc)
 
-## Reverse Shell PHP
-Found a vulnerability by using searchexploit
+## PHP Reverse Shell
+Found a vulnerability by using searchexploit (SweetRice 1.5.1 - Cross-Site Request Forgery / PHP Code Ex | php/webapps/40700.html)
 
 
 ![image](https://github.com/user-attachments/assets/890c43c5-f2f2-43a4-b6e2-ee1ea0587c61)
