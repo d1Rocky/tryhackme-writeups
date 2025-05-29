@@ -68,7 +68,13 @@ FTP port is accessible using "anonymous" username.
 ![image](https://github.com/user-attachments/assets/a262527a-6217-4034-a30b-4cacf208489d)
 
 
-ftp directory have full permission and can allow me to put a reverse shell file in it
+
+## PHP Reverse Shell
+
+
+ftp directory have full permissions enabled which allowed me to transfer from my machine to the ftp server a php reverse shell file and execute it while have netcat listener.
+
+
 ![image](https://github.com/user-attachments/assets/b0745e84-34c8-4568-a1a6-0169359f534b)
 
 Successfully got a reverse shell by transferring my file to the ftp server and then click on the link in the browser while having netcat listening
