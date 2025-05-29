@@ -55,6 +55,9 @@ dirsearch:
 ```
 
 
+- Clue found in http://10.10.149.162/files/notice.txt
+
+
 ![image](https://github.com/user-attachments/assets/62099454-1c6d-49c7-ad40-118f62f32e98)
 
 
