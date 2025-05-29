@@ -90,6 +90,10 @@ $ cat recipe.txt
 Someone asked what our main ingredient to our spice soup is today. I figured I can't keep it a secret forever and told him it was love.
 ```
 
+
+## Finding User.txt File
+
+
 - Found a directory named "incidents" containing a .pcapng file, which stores captured network traffic (e.g., from Wireshark or tcpdump).
 - Since the file wasn’t readable on the target machine, I transferred it to my local machine by running ``` python3 -m http.server 8000 ``` on the target and ``` wget http://10.10.215.35:8000/suspicious.pcapng ``` on my machine.
 - Used ``` strings suspicious.pcapng ``` to read the file and found repeated connection attempts using the password: c4ntg3t3n0ughsp1c3.
