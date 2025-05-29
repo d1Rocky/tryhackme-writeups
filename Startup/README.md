@@ -72,10 +72,15 @@ FTP port is accessible using "anonymous" username.
 ## PHP Reverse Shell
 
 
-ftp directory have full permissions enabled which allowed me to transfer from my machine to the ftp server a php reverse shell file and execute it while have netcat listener.
+ftp directory have full permissions enabled which allowed me to transfer from my machine to the ftp server a php reverse shell file and execute it while having netcat listener in the background.
 
 
 ![image](https://github.com/user-attachments/assets/b0745e84-34c8-4568-a1a6-0169359f534b)
 
-Successfully got a reverse shell by transferring my file to the ftp server and then click on the link in the browser while having netcat listening
+
+Successfully got a reverse shell!
+
+
+![image](https://github.com/user-attachments/assets/e3d2aa87-1bb0-4c50-b9c2-60402b0a7ff6)
+
 
