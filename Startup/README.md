@@ -62,7 +62,7 @@ dirsearch:
 
 
 
-FTP port is accessible using anonymous username. Managed to log into the server.
+FTP port is accessible using "anonymous" username.
 
 
 ![image](https://github.com/user-attachments/assets/a262527a-6217-4034-a30b-4cacf208489d)
