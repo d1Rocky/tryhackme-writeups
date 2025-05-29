@@ -113,6 +113,12 @@ Someone asked what our main ingredient to our spice soup is today. I figured I c
 -rw-r--r-- 1 root root  1 May 29 21:10 startup_list.txt
 -rwx------ 1 lennie lennie    25 Nov 12  2020 print.sh
 ```
+```
+cat planner.sh
+#!/bin/bash
+echo $LIST > /home/lennie/scripts/startup_list.txt
+/etc/print.sh
+```
 
 planner.sh runs two commands:
 
