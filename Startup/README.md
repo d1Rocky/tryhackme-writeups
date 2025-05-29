@@ -108,9 +108,11 @@ Someone asked what our main ingredient to our spice soup is today. I figured I c
 ## Privilege Escalation
 
 - In lennie's PC I found those files:
+```
 -rwxr-xr-x 1 root root 77 Nov 12  2020 planner.sh
 -rw-r--r-- 1 root root  1 May 29 21:10 startup_list.txt
 -rwx------ 1 lennie lennie    25 Nov 12  2020 print.sh
+```
 
 
 
