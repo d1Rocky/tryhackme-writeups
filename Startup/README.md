@@ -84,3 +84,10 @@ Successfully got a reverse shell!
 ![image](https://github.com/user-attachments/assets/e3d2aa87-1bb0-4c50-b9c2-60402b0a7ff6)
 
 
+Found answer to the first question:
+```
+$ cat recipe.txt
+Someone asked what our main ingredient to our spice soup is today. I figured I can't keep it a secret forever and told him it was love.
+```
+
+
