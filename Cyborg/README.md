@@ -20,3 +20,6 @@ auth_param basic credentialsttl 2 hours
 acl auth_users proxy_auth REQUIRED
 http_access allow auth_users
 ```
+
+
+![image](https://github.com/user-attachments/assets/40dc9649-efe0-4627-925d-90a09855abfc)
