@@ -72,4 +72,11 @@ acl auth_users proxy_auth REQUIRED
 http_access allow auth_users
 ```
 
+- The content of archive.tar was extracted with tar
+- The folder contained information about "Borg Backup Repository"
+
+
+![image](https://github.com/user-attachments/assets/345500b4-fbfd-444b-8a00-fc81dcc13424)
+
+
 
