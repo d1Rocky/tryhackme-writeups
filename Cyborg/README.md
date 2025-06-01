@@ -90,5 +90,8 @@ Before extracting, based on previous information found about the music_archive, 
 
 ![image](https://github.com/user-attachments/assets/4463c07d-22be-4db8-890f-06dd6338df68)
 
+- To extract the archive file I used this command and passphrase: squidward
+![image](https://github.com/user-attachments/assets/0231108e-b80a-4873-a03d-d47eae369f5d)
+
 
 
