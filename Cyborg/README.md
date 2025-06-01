@@ -94,4 +94,14 @@ Before extracting, based on previous information found about the music_archive, 
 ![image](https://github.com/user-attachments/assets/0231108e-b80a-4873-a03d-d47eae369f5d)
 
 
+Inside Alex archived directory, found note.txt:
+![image](https://github.com/user-attachments/assets/063d31ac-9946-4442-977f-b694b2541b1f)
+
+
+## Exploit using SSH
+
+Connected to Alex PC using SSH with password: S3cretP@s3
+![image](https://github.com/user-attachments/assets/0ebd74c3-af1e-4623-9c73-d650359d9be3)
+
+
 
