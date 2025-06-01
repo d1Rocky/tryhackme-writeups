@@ -79,4 +79,16 @@ http_access allow auth_users
 ![image](https://github.com/user-attachments/assets/345500b4-fbfd-444b-8a00-fc81dcc13424)
 
 
+Found useful information on how to extract archive files in Borg - https://borgbackup.readthedocs.io/en/stable/usage/extract.html
+
+![image](https://github.com/user-attachments/assets/22c7e044-f8a7-4602-88af-af8b4fa71c6d)
+
+
+
+Before extracting, based on previous information found about the music_archive, we can use john to crack the hash:
+- Saved hash ```$apr1$BpZ.Q.1m$F0qqPwHSOG50URuOVQTTn.``` in a file and used john to crack it.
+
+![image](https://github.com/user-attachments/assets/4463c07d-22be-4db8-890f-06dd6338df68)
+
+
 
