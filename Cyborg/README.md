@@ -104,4 +104,10 @@ Connected to Alex PC using SSH with password: S3cretP@s3
 ![image](https://github.com/user-attachments/assets/0ebd74c3-af1e-4623-9c73-d650359d9be3)
 
 
+Found user.txt
+![image](https://github.com/user-attachments/assets/6ed3fd61-909f-4f93-b9e5-fc051bb640bc)
+
+
+![image](https://github.com/user-attachments/assets/ad508d45-af19-4c9a-b0f3-9914a473b3db)
+
 
