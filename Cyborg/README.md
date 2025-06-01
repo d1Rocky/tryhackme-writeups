@@ -53,9 +53,10 @@ dirsearch:
 
 
 
-Archive file was available to download under the Archive tab
+Found clue that was left by Alex to his team and archive file was available to download under the Archive tab
 
-![image](https://github.com/user-attachments/assets/21c77094-778a-4bae-a5e6-2a53dd71f7eb)
+![image](https://github.com/user-attachments/assets/d6f2113e-7015-4f30-a985-9f74341a70a2)
+
 
 
 Found information inside this directory - http://10.10.208.252/etc/squid/
