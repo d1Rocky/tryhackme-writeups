@@ -57,5 +57,28 @@ Used Hydra to brute force password
 ![image](https://github.com/user-attachments/assets/007c0e11-e48a-4d89-bbac-d53b85237c4d)
 
 
+Login successful and found web flag and RSA Key
 
+
+![image](https://github.com/user-attachments/assets/30fe73d2-f819-4f82-ac6a-73dae8260a43)
+
+
+![image](https://github.com/user-attachments/assets/9edec0fa-27b6-48b4-a9ce-042b7c5a8e8a)
+
+
+## SSH Exploit
+
+- SSH is being prevents since they ask for passphrase
+
+![image](https://github.com/user-attachments/assets/97b6a84a-c9a7-4fd5-b7d5-bb58fc11dc15)
+
+
+- To fix this, I took the RSA Key and converted the encrypted SSH Key to a Hash Format using ssh2john.py
+
+![image](https://github.com/user-attachments/assets/ee376b29-4690-4aa3-b896-def8d7533f4f)
+
+
+- Then I used john to crack the hash
+
+![image](https://github.com/user-attachments/assets/a27352e8-182e-4ad6-82f2-42e1ebbb747c)
 
