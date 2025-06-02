@@ -68,7 +68,7 @@ Login successful and found web flag and RSA Key
 
 ## SSH Exploit
 
-- SSH is being prevents since they ask for passphrase
+- SSH asks for passphrase which I do not have
 
 ![image](https://github.com/user-attachments/assets/97b6a84a-c9a7-4fd5-b7d5-bb58fc11dc15)
 
