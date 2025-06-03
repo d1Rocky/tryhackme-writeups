@@ -89,3 +89,13 @@ Successfully logged into John using SSH and passphrase: ```rockinroll```
 
 
 ![image](https://github.com/user-attachments/assets/554dd1d1-7a4e-4287-95f4-4245365dce67)
+
+
+Found user.txt
+
+
+![image](https://github.com/user-attachments/assets/6410d394-606f-45a2-b695-92ef74f28e5b)
+
+
+
+
