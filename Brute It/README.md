@@ -84,7 +84,7 @@ Login successful and found web flag and RSA Key
 ![image](https://github.com/user-attachments/assets/a27352e8-182e-4ad6-82f2-42e1ebbb747c)
 
 
-Successfully logged in using SSH to John's
+Successfully logged into John using SSH and passphrase: 
 
 
 
