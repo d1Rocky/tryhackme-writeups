@@ -97,5 +97,29 @@ Found user.txt
 ![image](https://github.com/user-attachments/assets/6410d394-606f-45a2-b695-92ef74f28e5b)
 
 
+- Found that user John can run the following command - 
+```
+User john may run the following commands on bruteit:
+    (root) NOPASSWD: /bin/cat
+```
+
+- Found root hashed password in /etc/shadow
+
+![image](https://github.com/user-attachments/assets/2d5f34c0-ec5b-435c-9d45-e2cafd0aa5ad)
+
+
+- I cracked the hash using john the ripper
+
+![image](https://github.com/user-attachments/assets/42438f9b-5a01-4b00-8b18-aaea5592185d)
+
+
+- To get root.txt you can do two things:
+1). you can use the password given to you and log into the machine as root and read the file.
+2). Or you can use this command to read the file from john's machine - sudo /bin/cat /root/root.txt
+
+
+![image](https://github.com/user-attachments/assets/a8f81e3d-f896-49ed-bda8-c01d55f1e2cc)
+
+
 
 
