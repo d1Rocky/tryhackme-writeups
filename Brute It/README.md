@@ -114,7 +114,11 @@ User john may run the following commands on bruteit:
 
 
 - To get root.txt you can do two things:
+
+
 1). you can use the password given to you and log into the machine as root and read the file.
+
+
 2). Or you can use this command to read the file from john's machine - sudo /bin/cat /root/root.txt
 
 
