@@ -70,7 +70,8 @@ Login successful and found web flag and RSA Key
 
 - SSH asks for passphrase which I do not have
 
-![image](https://github.com/user-attachments/assets/97b6a84a-c9a7-4fd5-b7d5-bb58fc11dc15)
+![image](https://github.com/user-attachments/assets/689c0f47-b79b-4c42-97a8-f96ea4b31072)
+
 
 
 - To fix this, I took the RSA Key and converted the encrypted SSH Key to a Hash Format using ssh2john.py
@@ -82,3 +83,9 @@ Login successful and found web flag and RSA Key
 
 ![image](https://github.com/user-attachments/assets/a27352e8-182e-4ad6-82f2-42e1ebbb747c)
 
+
+Successfully logged in using SSH to John's
+
+
+
+![image](https://github.com/user-attachments/assets/554dd1d1-7a4e-4287-95f4-4245365dce67)
