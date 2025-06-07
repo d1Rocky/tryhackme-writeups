@@ -65,7 +65,7 @@ dirsearch:
 
 
 ## Port 22
-- ssh is not available to log in with random credentials
+- ssh is not allowing to log in with random credentials
 
 
 ![image](https://github.com/user-attachments/assets/0fd37ddc-4d1e-4518-83f1-005e968474ab)
@@ -101,3 +101,8 @@ dirsearch:
 
 ![image](https://github.com/user-attachments/assets/72c5b35f-cb49-4ab6-a7cb-0db6dcf4eff6)
 
+```
+weston@national-treasure:/$ sudo -l
+User weston may run the following commands on national-treasure:
+    (root) /usr/bin/bees
+```
