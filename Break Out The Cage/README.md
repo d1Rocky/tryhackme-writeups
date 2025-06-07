@@ -72,4 +72,7 @@ dirsearch:
 
 ## Port 21
 
+- ftp allowing annonymous login
+
+![image](https://github.com/user-attachments/assets/e6ebd02c-446a-4219-a90a-b5cf615cae64)
 
