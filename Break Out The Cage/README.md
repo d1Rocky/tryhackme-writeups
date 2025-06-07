@@ -58,9 +58,18 @@ dirsearch:
 ## Port 80
 
 - Cage son is Weston
-- Found information is /scripts/ directory
+- Found information in /scripts/ directory
 
 
 ![image](https://github.com/user-attachments/assets/2021c32c-bb75-4ac0-add0-405a10202f53)
+
+
+## Port 22
+- ssh is not available to log in with random credentials
+
+
+![image](https://github.com/user-attachments/assets/0fd37ddc-4d1e-4518-83f1-005e968474ab)
+
+## Port 21
 
 
