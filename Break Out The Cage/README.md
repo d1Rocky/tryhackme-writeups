@@ -59,6 +59,8 @@ dirsearch:
 
 - Cage son is Weston
 - Found information is /scripts/ directory
+
+
 ![image](https://github.com/user-attachments/assets/2021c32c-bb75-4ac0-add0-405a10202f53)
 
 
