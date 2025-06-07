@@ -7,7 +7,7 @@ IP -
 ## Scanning and Enumeration
 
 nmap:
-
+```
 PORT   STATE SERVICE VERSION
 21/tcp open  ftp     vsftpd 3.0.3
 | ftp-syst:
@@ -38,9 +38,9 @@ PORT   STATE SERVICE VERSION
 Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
 Device type: general purpose
 Running: Linux 4.X
-
+```
 dirsearch:
-
+```
 [16:59:32] 301 -   311B - /html  ->  http://10.10.176.62/html/
 
 [17:00:07] 200 -   737B - /html/
@@ -54,7 +54,7 @@ dirsearch:
 [17:00:22] 301 -   314B - /scripts  ->  http://10.10.176.62/scripts/
 
 [17:00:22] 200 -    2KB - /scripts/
-
+```
 ## Port 80
 
 - Cage son is Weston
