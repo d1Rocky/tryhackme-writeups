@@ -78,7 +78,26 @@ dirsearch:
 
 - Found file called ```dad_tasks```
 - Moved file to my machine ```wget --ftp-user=Anonymous ftp://10.10.176.62/dad_tasks```
-- Opened file and found encrypted data, possibly a password
-
+- Opened file and found encrypted message
 
 ![image](https://github.com/user-attachments/assets/b381a85e-b18c-4e2a-baf5-f9362c92dc57)
+
+
+## Decrypting an Unknown Cipher
+- Used CyberChef and found out that by decoding it with base64 I get a decrypted Cipher
+
+![image](https://github.com/user-attachments/assets/554b5041-7046-46fb-8a6d-13d894bbc3f6)
+
+
+- Found out the Cipher is Vigenere. I decoded it using dcode.fr
+
+![image](https://github.com/user-attachments/assets/2f878959-1491-48f7-82a5-1a30328fe2c5)
+
+- Weston's password - Mydadisghostrideraintthatcoolnocausehesonfirejokes 
+
+
+## SSH Login
+- username: weston | password: Mydadisghostrideraintthatcoolnocausehesonfirejokes
+
+![image](https://github.com/user-attachments/assets/72c5b35f-cb49-4ab6-a7cb-0db6dcf4eff6)
+
