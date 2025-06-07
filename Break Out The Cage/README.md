@@ -76,3 +76,9 @@ dirsearch:
 
 ![image](https://github.com/user-attachments/assets/e6ebd02c-446a-4219-a90a-b5cf615cae64)
 
+- Found file called ```dad_tasks```
+- Moved file to my machine ```wget --ftp-user=Anonymous ftp://10.10.176.62/dad_tasks```
+- Opened file and found encrypted data, possibly a password
+
+
+![image](https://github.com/user-attachments/assets/b381a85e-b18c-4e2a-baf5-f9362c92dc57)
