@@ -131,6 +131,14 @@ User weston may run the following commands on national-treasure:
 
 ![image](https://github.com/user-attachments/assets/471be8e9-4381-47d9-a203-ca3373fdccd8)
 
+- Used dcode again but this time I input cipher: ```haiinspsyanileph``` | key: ```FACE```
+
+
+![image](https://github.com/user-attachments/assets/a6e0d65e-a622-4427-9146-04053f205b0e)
+
+
+- Found user flag
+
 
 ![image](https://github.com/user-attachments/assets/03b9d4ce-2a39-4cde-bbed-c46a7058a84b)
 
