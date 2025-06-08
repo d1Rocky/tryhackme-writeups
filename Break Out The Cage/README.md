@@ -126,7 +126,7 @@ User weston may run the following commands on national-treasure:
 
 ![image](https://github.com/user-attachments/assets/fef46213-21ef-47a0-9b3f-22aa961c1efa)
 
-- Found important information inside /email_backup/ direcotory
+- Found important information inside /email_backup/ directory
 
 
 ![image](https://github.com/user-attachments/assets/471be8e9-4381-47d9-a203-ca3373fdccd8)
