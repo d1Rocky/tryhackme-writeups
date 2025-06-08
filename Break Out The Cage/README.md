@@ -101,8 +101,35 @@ dirsearch:
 
 ![image](https://github.com/user-attachments/assets/72c5b35f-cb49-4ab6-a7cb-0db6dcf4eff6)
 
+
+- Weston's root permissions
 ```
 weston@national-treasure:/$ sudo -l
 User weston may run the following commands on national-treasure:
     (root) /usr/bin/bees
 ```
+
+
+- Used find / -type f -user cage 2>/dev/null to discover files within cage directory
+
+![image](https://github.com/user-attachments/assets/a53147bb-f772-442f-91f7-e2054863d68f)
+
+- ```/spread_the_quotes.py``` calls ```/opt/.dads_scripts/files/.quotes``` choosing randomly a quote.
+
+
+## Priviledge Escalation
+
+
+![image](https://github.com/user-attachments/assets/43161db1-0566-43cc-9d5b-a79c8dfcba44)
+
+
+
+![image](https://github.com/user-attachments/assets/fef46213-21ef-47a0-9b3f-22aa961c1efa)
+
+
+![image](https://github.com/user-attachments/assets/471be8e9-4381-47d9-a203-ca3373fdccd8)
+
+
+![image](https://github.com/user-attachments/assets/03b9d4ce-2a39-4cde-bbed-c46a7058a84b)
+
+
