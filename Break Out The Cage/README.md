@@ -143,6 +143,7 @@ User weston may run the following commands on national-treasure:
 ![image](https://github.com/user-attachments/assets/03b9d4ce-2a39-4cde-bbed-c46a7058a84b)
 
 
+- Gained access to Root using ```su root```
 
 
 ![image](https://github.com/user-attachments/assets/30fbbe26-ff07-4efc-baa4-db0995df702a)
