@@ -55,3 +55,17 @@ dirsearch:
 ![image](https://github.com/user-attachments/assets/5b828a83-e2c2-47b1-abd1-5a5bd055c63e)
 
 
+# Priviledge Escalation
+
+- Found remote priviledge escalation using searchsploit. It allow to create an admin user in CouchDB.
+
+
+![image](https://github.com/user-attachments/assets/1444e0cf-2746-408d-b52c-2c89fbe2a111)
+
+
+- Successfully created admin user.
+
+
+![image](https://github.com/user-attachments/assets/bb8d7a2b-b687-41f2-a300-4842354a288f)
+
+
