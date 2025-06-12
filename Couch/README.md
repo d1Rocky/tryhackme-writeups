@@ -48,3 +48,10 @@ dirsearch:
 
 ![image](https://github.com/user-attachments/assets/7345d18b-cb6c-4734-b26a-e22f090b8dd9)
 
+
+- Found user atena password inside the web interface at http://10.10.202.26:5984/_utils/document.html?secret/
+
+
+![image](https://github.com/user-attachments/assets/5b828a83-e2c2-47b1-abd1-5a5bd055c63e)
+
+
