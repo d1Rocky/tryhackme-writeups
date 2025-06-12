@@ -63,9 +63,11 @@ dirsearch:
 ![image](https://github.com/user-attachments/assets/1444e0cf-2746-408d-b52c-2c89fbe2a111)
 
 
-- Successfully created admin user.
+- Opened the path and copy paste code to a file and then run the script which successfully created admin user.
 
 
 ![image](https://github.com/user-attachments/assets/bb8d7a2b-b687-41f2-a300-4842354a288f)
 
+
+![image](https://github.com/user-attachments/assets/f0d1ea29-58db-4041-8fef-6e2282342eb3)
 
