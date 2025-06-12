@@ -2,6 +2,7 @@
 # Couch
 
 nmap: 
+```
 22/tcp   open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.10 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey:
 |   2048 34:9d:39:09:34:30:4b:3d:a7:1e:df:eb:a3:b0:e5:aa (RSA)
@@ -23,10 +24,27 @@ Network Distance: 4 hops
 TCP Sequence Prediction: Difficulty=264 (Good luck!)
 IP ID Sequence Generation: All zeros
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+```
+
+* CouchDB is a NoSQL database that uses TCP port 5984.
 
 
 ![image](https://github.com/user-attachments/assets/b71c408d-e6d4-4da1-a21b-3aa62fc1305f)
 
 
+dirsearch:
+
 
 ![image](https://github.com/user-attachments/assets/29328a7a-e865-4b63-9e43-b79822ed2ac9)
+
+
+## Exploit Using Metasploit
+
+![image](https://github.com/user-attachments/assets/50280ce6-2bee-4a0b-bedc-1281a5cd7292)
+
+
+- Found user flag
+
+
+![image](https://github.com/user-attachments/assets/7345d18b-cb6c-4734-b26a-e22f090b8dd9)
+
