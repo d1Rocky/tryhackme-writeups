@@ -77,6 +77,9 @@ dirsearch:
 ## SSH Exploit
 
 
+- Copy paste the RSA key into a file. Ran ssh2john in order to crack the passphrase
+
+
 ![image](https://github.com/user-attachments/assets/9394a64c-407f-4117-a554-49a30209055c)
 
 
