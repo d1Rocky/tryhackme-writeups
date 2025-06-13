@@ -88,3 +88,10 @@ dirsearch:
 
 ![image](https://github.com/user-attachments/assets/06fd0ba6-dd25-43a9-a07f-895b22037789)
 
+
+- Found user.txt
+
+
+![image](https://github.com/user-attachments/assets/3267ac39-9cf2-48ea-8eec-950744e339ea)
+
+
