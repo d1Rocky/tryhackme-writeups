@@ -68,14 +68,13 @@ dirsearch:
 
 
 
-- Found user John (Ctrl+U)
-
-
-
-## SSH Exploit 
+- Found user John (Ctrl+U) 
 
 
 ![image](https://github.com/user-attachments/assets/d460370a-be82-4444-8c07-63865fafc6c1)
+
+
+## SSH Exploit
 
 
 ![image](https://github.com/user-attachments/assets/9394a64c-407f-4117-a554-49a30209055c)
