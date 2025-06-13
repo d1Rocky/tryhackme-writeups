@@ -51,14 +51,38 @@ dirsearch:
 ```
 
 
-Found ssh key inside ```/secret/``` directory
+- Found ssh key inside ```/secret/``` directory
 
 
 ![image](https://github.com/user-attachments/assets/2c0085a9-4140-4f8c-90d8-a19a0b999e53)
 
 
 
-Found info in ```/uploads/``` directory
+- Found info in ```/uploads/``` directory
 
 
 ![image](https://github.com/user-attachments/assets/0daeadfa-58f8-4c67-8a85-72d417857501)
+
+
+- Found a dictionary list inside ```/uploads/dict.lst/```
+
+
+
+- Found user John (Ctrl+U)
+
+
+
+## SSH Exploit 
+
+
+![image](https://github.com/user-attachments/assets/d460370a-be82-4444-8c07-63865fafc6c1)
+
+
+![image](https://github.com/user-attachments/assets/9394a64c-407f-4117-a554-49a30209055c)
+
+
+- Successfully logged into john using SSH
+
+
+![image](https://github.com/user-attachments/assets/06fd0ba6-dd25-43a9-a07f-895b22037789)
+
