@@ -41,5 +41,35 @@ dirsearch:
 ```
 
 
+![image](https://github.com/user-attachments/assets/e517a647-16ed-424e-b934-12cb1f341238)
+
+
+I checked the source code and found a name - Jessie
+
+
+![image](https://github.com/user-attachments/assets/7a4dde23-4f09-4fb0-8b84-d47ebad5f099)
+
+
+In /sitemap/.ssh/id_rsa I found rsa key
+
+
+![image](https://github.com/user-attachments/assets/b8977db9-4cfc-41a8-84e8-069cd0316118)
+
+
+
+- I created a new file and pasted the rsa key and then changed its permissions by running this command - ```chmod 600```
+- Tried SSH using this command - ```ssh -i [rsa-key] jessie@10.10.87.204```
+
+
+![image](https://github.com/user-attachments/assets/535a6e46-c437-4d3a-88df-0ea57c9f0b27)
+
+
+
+Found user flag in Jessie's Documents
+
+
+![image](https://github.com/user-attachments/assets/eb4aacb0-e167-46d3-8cea-176ea3a6985c)
+
+
 
 
