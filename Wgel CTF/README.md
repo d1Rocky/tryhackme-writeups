@@ -71,5 +71,16 @@ Found user flag in Jessie's Documents
 ![image](https://github.com/user-attachments/assets/eb4aacb0-e167-46d3-8cea-176ea3a6985c)
 
 
+## Exploit
+
+Found which command Jessie can run as root
+
+
+![image](https://github.com/user-attachments/assets/121a309f-be14-4904-9474-2f7049424191)
+
+
+Found Root flag
+
+![image](https://github.com/user-attachments/assets/7b15236f-d1dc-466c-8794-17966a4aac34)
 
 
