@@ -68,6 +68,16 @@ When I opened ```.bash_history``` in the user directory I found that the user de
 <img width="645" height="416" alt="image" src="https://github.com/user-attachments/assets/30e4d7e7-d3eb-465f-9bb5-e4cc3c33db1f" />
 
 
-# Priviledge Escalation
+# Priviledge Escalation to Root
 
+I used the docker container script to escalate my privileges
+
+
+<img width="802" height="79" alt="image" src="https://github.com/user-attachments/assets/7cf5b59e-39fc-4c3e-a1d9-1704e0398ffa" />
+
+
+Now that I am inside as root I can just use the find command to find the root.txt file using the find command
+
+
+<img width="493" height="158" alt="image" src="https://github.com/user-attachments/assets/9732e904-3ed7-463b-8050-b96d3cb4bf5a" />
 
