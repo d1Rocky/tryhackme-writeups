@@ -76,7 +76,7 @@ I used the docker container script to escalate my privileges
 <img width="802" height="79" alt="image" src="https://github.com/user-attachments/assets/7cf5b59e-39fc-4c3e-a1d9-1704e0398ffa" />
 
 
-Now that I am inside as root I can just use the find command to find the root.txt file using the find command
+Now that I am inside as root I can just use the find command to find the root.txt file
 
 
 <img width="493" height="158" alt="image" src="https://github.com/user-attachments/assets/9732e904-3ed7-463b-8050-b96d3cb4bf5a" />
