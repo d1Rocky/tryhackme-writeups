@@ -61,6 +61,7 @@ Successfully SSH into user atena with her password
 <img width="558" height="210" alt="image" src="https://github.com/user-attachments/assets/0f1897a1-f19b-4737-a28b-f8eb24946041" />
 
 
+
 When I opened ```.bash_history``` in the user directory I found that the user deleted the root flag and stored it in the docker container.
 
 
