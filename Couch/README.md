@@ -54,20 +54,13 @@ dirsearch:
 
 ![image](https://github.com/user-attachments/assets/5b828a83-e2c2-47b1-abd1-5a5bd055c63e)
 
+# SSH Exploit
+
+Successfully SSH into user atena with her password
+
+<img width="558" height="210" alt="image" src="https://github.com/user-attachments/assets/0f1897a1-f19b-4737-a28b-f8eb24946041" />
+
 
 # Priviledge Escalation
 
-- Found remote priviledge escalation using searchsploit. It allow to create an admin user in CouchDB.
-
-
-![image](https://github.com/user-attachments/assets/1444e0cf-2746-408d-b52c-2c89fbe2a111)
-
-
-- Opened the path and copy paste code to a file and then run the script which successfully created admin user.
-
-
-![image](https://github.com/user-attachments/assets/bb8d7a2b-b687-41f2-a300-4842354a288f)
-
-
-![image](https://github.com/user-attachments/assets/f0d1ea29-58db-4041-8fef-6e2282342eb3)
 
